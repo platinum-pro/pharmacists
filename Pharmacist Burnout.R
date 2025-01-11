@@ -47,7 +47,7 @@ ggplot(data, aes(x = work_setting, y = burnout, fill = hours)) +
        fill = "Weekly Working Hours") +
   theme_classic() +
   theme(
-    axis.text.x = element_text(angle = 0, hjust = 0.5),
+    axis.text.x = element_text(angle = 0, vjust = 0.5),
     axis.text = element_text(color = "black"),
     legend.position = "top"
   ) +
