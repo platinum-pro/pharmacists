@@ -49,4 +49,4 @@ ggplot(data, aes(x = work_setting, y = CS, fill = Meditation)) +
     axis.text = element_text(color = "black"),
     legend.position = "top"
   ) +
-  scale_y_continuous(limits = c(0, 40))
+  scale_y_continuous(limits = c(0, 42))
